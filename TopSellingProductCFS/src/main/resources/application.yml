@@ -1,0 +1,16 @@
+server:
+  port: 7777
+
+spring:
+  application:
+   name: salesreport
+  data:
+    cassandra:
+      keyspace-name: products
+      contact-points: localhost
+      password: cassandra
+      username: cassandra
+      dataCenter: datacenter1
+      replicationFactor: 1
+      port: 9042
+
